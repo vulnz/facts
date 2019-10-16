@@ -1,0 +1,30 @@
+
+</center>
+
+
+<h1>Installation</h1>
+<font size=4>
+1)Please add your database credentials to this file <u>config\db.php</u> <code>
+<br>
+$servername = "localhost";<br>
+$username = "root";<br>
+$password = "";<br>
+$dbname = "sca"; <br>
+</code>
+<br>
+
+2)Import database <a href="./assets/Database.sql">Database.sql</a> file from /assets/ folder to your database
+ folder to desired database. type: InnoDB	and encoding: utf8_general_ci  <br> <br>
+
+
+3)Edit line 24 in \templ\templ.tpl file in order to put your custom path to web db client <br> <br>
+
+4) Make sure to know your database wait limits and increase them. <br>
+</font>
+<h1>Steps to start</h1>
+<font size=4>1) Check for file you upload: " nginx, apache, php, jboss, iis" logs file<br><br>
+2) Use this form to <a href=/upload.php>Upload</a> file.Big files take more time to analyse <br> <br>
+3) Go to  <a href=/analyze.php>Analyze</a> in order to see the results, it make take some time <br> <br>
+4) See the results in format: attack pattern and attack information <br><br>
+5) Use <a href =/add.php>Add pattern</a> in order to add to database your custom pattern<br> <br>
+6) Check for <a href=https://github.com/vulnz/facts>Updates</a>, it will be new patterns updates on request
