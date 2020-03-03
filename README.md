@@ -15,11 +15,18 @@
     $password = "";
     $dbname = "sca"; 
     
-    2)Import database Database.sql file from /assets/ folder to your database folder to desired database. type: InnoDB	and encoding: utf8_general_ci 
+    2)Import database Database.sql file from /assets/ folder to your database folder to desired database. type: InnoDB	and encoding: utf8_general_ci. You can import it using phpmyadmin for example. The database name should be sca.
     
     3)Edit line 24 in \templ\templ.tpl file in order to put your custom path to web db client 
     
     4) Make sure to know your database wait limits and increase them. 
+
+**Linux user**
+
+Should change line 35 and 36 in upload.php
+
+    35 line from "erase" to "rm -rf"
+    36 line from "ren" to "mv"
 
 **Steps to start**
 
