@@ -62,3 +62,10 @@ Descriptions:
 Add patterns:
 
 ![enter image description here](https://github.com/vulnz/facts/blob/master/screenshot/screenshot_4.PNG?raw=true)
+
+Additionally:
+
+Please see lightdatabase.sql 
+it is Short version of previous database and it works 10 times faster.
+It covers 90% of previous one and i guess it can be a default one.
+Cheers
